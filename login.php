@@ -15,40 +15,28 @@
 
 <body>
     <div class="wrapper">
-        <section class="form signup">
+        <section class="form login">
             <header>MattChat App</header>
             <form action="#">
                 <div class="error-txt">
                     Questo è un messaggio di errore!
                 </div>
-                <div class="name-details">
-                    <div class="field input">
-                        <label for="">Nome</label>
-                        <input type="text" placeholder="Nome">
-                    </div>
-                    <div class="field input">
-                        <label for="">Cognome</label>
-                        <input type="text" placeholder="Cognome">
-                    </div>
-                </div>
+
                 <div class="field input">
                     <label for="">Email</label>
                     <input type="text" placeholder="Inserisci la tua email">
                 </div>
                 <div class="field input">
                     <label for="">Password</label>
-                    <input type="text" placeholder="Inserisci una password">
+                    <input type="text" placeholder="Inserisci la tua password">
                     <i class="fas fa-eye"></i>
                 </div>
-                <div class="field image">
-                    <label for="">Seleziona Immagine</label>
-                    <input type="file">
-                </div>
+
                 <div class="field button">
                     <input type="submit" value="Continua per la Chat">
                 </div>
             </form>
-            <div class="link">Sei già registrato? <a href="">Effettua ora il Login!</a></div>
+            <div class="link">Non sei ancora registrato? <a href="">Registrati ora!</a></div>
         </section>
     </div>
 </body>
