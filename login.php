@@ -19,16 +19,16 @@
             <header>MattChat App</header>
             <form action="#">
                 <div class="error-txt">
-                    Questo è un messaggio di errore!
+
                 </div>
 
                 <div class="field input">
-                    <label for="">Email</label>
-                    <input type="text" placeholder="Inserisci la tua email">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Inserisci la tua email" name="email">
                 </div>
                 <div class="field input">
-                    <label for="">Password</label>
-                    <input type="password" placeholder="Inserisci la tua password">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Inserisci la tua password" name="password">
                     <i class="fas fa-eye"></i>
                 </div>
 
@@ -36,11 +36,13 @@
                     <input type="submit" value="Continua per la Chat">
                 </div>
             </form>
-            <div class="link">Non sei ancora registrato? <a href="">Registrati ora!</a></div>
+            <div class="link">Non sei ancora registrato? <a href="index.php">Registrati ora!</a></div>
         </section>
     </div>
 
     <script src="./javascript/pass-show-hide.js"></script>
+    <script src="./javascript/login.js"></script>
+
 </body>
 
 </html>
