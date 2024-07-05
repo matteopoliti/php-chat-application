@@ -45,66 +45,7 @@ if (!isset($_SESSION['unique_id'])) {
                 <button><i class="fas fa-search"></i></button>
             </div>
             <div class="users-list">
-                <a href="#">
-                    <div class="content">
-                        <img src="./assets/Pro-pic.jpg" alt="">
-                        <div class="details">
-                            <span>Matteo</span>
-                            <p>Attivo Adesso</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
-                <a href="#">
-                    <div class="content">
-                        <img src="./assets/Pro-pic.jpg" alt="">
-                        <div class="details">
-                            <span>Matteo</span>
-                            <p>Attivo Adesso</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
-                <a href="#">
-                    <div class="content">
-                        <img src="./assets/Pro-pic.jpg" alt="">
-                        <div class="details">
-                            <span>Matteo</span>
-                            <p>Attivo Adesso</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
-                <a href="#">
-                    <div class="content">
-                        <img src="./assets/Pro-pic.jpg" alt="">
-                        <div class="details">
-                            <span>Matteo</span>
-                            <p>Attivo Adesso</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
-                <a href="#">
-                    <div class="content">
-                        <img src="./assets/Pro-pic.jpg" alt="">
-                        <div class="details">
-                            <span>Matteo</span>
-                            <p>Attivo Adesso</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
-                <a href="#">
-                    <div class="content">
-                        <img src="./assets/Pro-pic.jpg" alt="">
-                        <div class="details">
-                            <span>Matteo</span>
-                            <p>Attivo Adesso</p>
-                        </div>
-                    </div>
-                    <div class="status-dot"><i class="fas fa-circle"></i></div>
-                </a>
+
             </div>
         </section>
     </div>
