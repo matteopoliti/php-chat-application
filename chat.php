@@ -86,11 +86,15 @@ if (!isset($_SESSION['unique_id'])) {
                 </div>
             </div>
             <form action="" class="typing-area">
-                <input type="text" placeholder="Scrivi un messaggio qui...">
+                <input type="text" name="outgoing_id" value="<?php echo $_SESSION['unique_id']; ?>" hidden> <!--  input nascosto per inviare msg_sender_id e msg_receiver_id -->
+                <input type="text" name="incoming_id" value="<?php echo $user_id; ?>" hidden>
+                <input type="text" name="message" class="input-field" placeholder="Scrivi un messaggio qui...">
                 <button><i class="fas fa-paper-plane"></i></button>
             </form>
         </section>
     </div>
+
+    <script src="javascript/chat.js"></script>
 </body>
 
 </html>
