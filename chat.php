@@ -40,50 +40,7 @@ if (!isset($_SESSION['unique_id'])) {
 
             </header>
             <div class="chat-box">
-                <div class="chat outgoing">
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="./assets/Pro-pic.jpg" alt="">
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="chat outgoing">
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="./assets/Pro-pic.jpg" alt="">
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="chat outgoing">
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="./assets/Pro-pic.jpg" alt="">
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="chat outgoing">
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="./assets/Pro-pic.jpg" alt="">
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
+
             </div>
             <form action="" class="typing-area">
                 <input type="text" name="outgoing_id" value="<?php echo $_SESSION['unique_id']; ?>" hidden> <!--  input nascosto per inviare msg_sender_id e msg_receiver_id -->
