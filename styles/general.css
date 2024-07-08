@@ -255,6 +255,7 @@ body{
 }
 .users-list a .status-dot{
     font-size: 12px;
+    color: #468669;
 }
 /*Usiamo questa classe in php per vedere lo stato offline*/
 .users-list a .status-dot.offline {

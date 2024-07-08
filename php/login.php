@@ -16,13 +16,18 @@ if (!empty($email) && !empty($password)) {
         $row = $result->fetch_assoc();
 
         if (password_verify($password, $row['password'])) {
-            $_SESSION['unique_id'] = $row['unique_id'];
-            echo "success";
+            $status = "Active Now";
+            // aggiorniamo lo status a Active Now se l'utente si logga con successo
+            $sql = mysqli_query($conn, "UPDATE users SET status = '{$status}' WHERE unique_id = '{$row['unique_id']}'");
+            if ($sql) {
+                $_SESSION['unique_id'] = $row['unique_id'];
+                echo "success";
+            }
         } else {
-            echo "Email o Password sono errata!";
+            echo "Email o Password errata!";
         }
     } else {
-        echo "Email o Password sono errata!";
+        echo "Email o Password errata!";
     }
 } else {
     echo "Tutti i campi sono richiesti";
